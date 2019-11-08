@@ -69,7 +69,6 @@ namespace IdentityAPI
                     c.RoutePrefix = "";
                 });
             }
-
             //Migrate the Database
             InitializeDatabase(app);
 
